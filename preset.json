@@ -9,7 +9,8 @@
           "lintOn": [
             "save"
           ]
-        }
+        },
+        "@vue/cli-plugin-test": { "option": "bar" }
       },
       "router": true,
       "routerHistoryMode": true,
