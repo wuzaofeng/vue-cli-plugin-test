@@ -19,7 +19,7 @@ module.exports = (api, options, rootOptions) => {
         }
       });
   
-      api.render('./template/vuex');
+      // api.render('./template/vuex');
     }
   
     // 安装 element-ui 库
