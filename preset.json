@@ -1,18 +1,14 @@
 {
-    "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-typescript": {
-          "classComponent": false
-        },
-        "@vue/cli-plugin-eslint": {
-          "config": "standard",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
-      "router": true,
-      "routerHistoryMode": true,
-      "vuex": true,
-      "cssPreprocessor": "node-sass"
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    }
+  },
+  "cssPreprocessor": "stylus"
 }
